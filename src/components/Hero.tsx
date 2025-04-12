@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -38,12 +39,12 @@ const Hero = () => {
           to create sustainable solutions that protect nature, combat climate change, and ensure a healthier planet for all.
         </p>
         <div className="flex justify-center animate-fade-up" style={{animationDelay: '200ms'}}>
-          <a 
-            href="#get-involved" 
+          <Link 
+            to="/volunteer" 
             className="btn-primary"
           >
-            Get Involved
-          </a>
+            Volunteer With Us
+          </Link>
         </div>
       </div>
       <button 

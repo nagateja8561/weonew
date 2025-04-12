@@ -82,16 +82,13 @@ const Impact = () => {
 
         <div className="mt-16 grid md:grid-cols-2 gap-10 items-center">
           <div className="animate-on-scroll">
-            <h3 className="mb-4">Success Stories</h3>
+            <h3 className="mb-4">Our Commitment</h3>
             <p className="mb-4">
-              From restoring coral reefs in the Pacific to protecting rainforests in South America, our work has demonstrable positive impacts on ecosystems and communities worldwide.
+              We are dedicated to creating measurable environmental impact through our conservation efforts. Our projects focus on ecosystem restoration, biodiversity protection, and sustainable resource management. By working with local communities and leveraging scientific expertise, we ensure that our interventions are effective and sustainable.
             </p>
-            <a 
-              href="#" 
-              className="inline-block bg-white text-eco-green font-medium px-6 py-3 rounded-md hover:bg-eco-beige transition-colors"
-            >
-              Read Our Stories
-            </a>
+            <p>
+              Our impact extends beyond environmental metrics to include social benefits such as improved livelihoods, enhanced community resilience, and increased environmental awareness. We believe that lasting environmental change requires both ecological restoration and community engagement.
+            </p>
           </div>
           <div className="h-80 rounded-lg overflow-hidden animate-on-scroll shadow-lg">
             <img 

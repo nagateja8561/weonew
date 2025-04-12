@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, HandHelping, Calendar, Share2 } from 'lucide-react';
+import { Heart, HandHelping, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const GetInvolved = () => {
@@ -17,7 +17,7 @@ const GetInvolved = () => {
       title: "Volunteer",
       description: "Join our network of volunteers and contribute your time and skills to our mission.",
       action: "Become a Volunteer",
-      link: "#volunteer",
+      link: "/volunteer",
       isExternalLink: false
     },
     {
@@ -25,15 +25,7 @@ const GetInvolved = () => {
       title: "Attend Events",
       description: "Participate in our events, workshops, and fundraisers in your community.",
       action: "See Events",
-      link: "#events",
-      isExternalLink: false
-    },
-    {
-      icon: <Share2 className="h-12 w-12 text-eco-green" />,
-      title: "Spread the Word",
-      description: "Share our message and raise awareness about environmental conservation.",
-      action: "Share Now",
-      link: "#share",
+      link: "/events",
       isExternalLink: false
     }
   ];
@@ -48,7 +40,7 @@ const GetInvolved = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {ways.map((way, index) => (
             <div 
               key={index} 

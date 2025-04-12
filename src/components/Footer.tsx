@@ -6,10 +6,34 @@ import {
   FaWhatsapp,
   FaInstagram,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const location = useLocation();
+  const navigate = useNavigate();
+  
+  const handleSectionClick = (sectionId: string) => {
+    // If we're not on the home page, navigate to home with the section hash
+    if (location.pathname !== '/') {
+      // First navigate to home page
+      navigate('/');
+      
+      // Then wait for the navigation to complete and scroll to the section
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      // If we're already on home page, just scroll to the section
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
   
   return (
     <footer className="bg-eco-green-dark text-white py-12">
@@ -25,11 +49,46 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 opacity-90">
-              <li><a href="#about" className="hover:text-eco-beige transition-colors">About Us</a></li>
-              <li><a href="#programs" className="hover:text-eco-beige transition-colors">Our Programs</a></li>
-              <li><a href="#impact" className="hover:text-eco-beige transition-colors">Our Impact</a></li>
-              <li><a href="#get-involved" className="hover:text-eco-beige transition-colors">Get Involved</a></li>
-              <li><a href="#contact" className="hover:text-eco-beige transition-colors">Contact Us</a></li>
+              <li>
+                <button 
+                  onClick={() => handleSectionClick('about')} 
+                  className="hover:text-eco-beige transition-colors text-left"
+                >
+                  About Us
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleSectionClick('programs')} 
+                  className="hover:text-eco-beige transition-colors text-left"
+                >
+                  Our Programs
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleSectionClick('impact')} 
+                  className="hover:text-eco-beige transition-colors text-left"
+                >
+                  Our Impact
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleSectionClick('get-involved')} 
+                  className="hover:text-eco-beige transition-colors text-left"
+                >
+                  Get Involved
+                </button>
+              </li>
+              <li>
+                <button 
+                  onClick={() => handleSectionClick('contact')} 
+                  className="hover:text-eco-beige transition-colors text-left"
+                >
+                  Contact Us
+                </button>
+              </li>
             </ul>
           </div>
           

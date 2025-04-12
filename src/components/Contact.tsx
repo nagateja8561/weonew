@@ -75,7 +75,17 @@ const Contact = () => {
                   <div className="mr-4 mt-1">{item.icon}</div>
                   <div>
                     <h4 className="font-bold mb-1">{item.title}</h4>
-                    <p className="text-eco-gray">{item.details}</p>
+                    {item.title === "Phone" ? (
+                      <a href={`tel:${item.details.replace(/\s+/g, '')}`} className="text-eco-gray hover:text-eco-blue hover:underline">
+                        {item.details}
+                      </a>
+                    ) : item.title === "Email" ? (
+                      <a href={`mailto:${item.details}`} className="text-eco-gray hover:text-eco-blue hover:underline">
+                        {item.details}
+                      </a>
+                    ) : (
+                      <p className="text-eco-gray">{item.details}</p>
+                    )}
                   </div>
                 </div>
               ))}

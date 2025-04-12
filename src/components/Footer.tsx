@@ -34,43 +34,39 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-xl font-bold mb-4">Follow Us</h4>
-            <div className="flex space-x-5 text-2xl">
-              <a
+            <h4 className="text-xl font-bold mb-4">Connect With Us</h4>
+            <div className="flex space-x-4 mb-4">
+              <a 
                 href="https://www.facebook.com/profile.php?id=61560845355012"
-                aria-label="Facebook"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-blue-400 transition duration-300"
+                className="text-white hover:text-eco-beige transition-colors"
               >
-                <FaFacebookF />
+                <FaFacebookF className="text-xl" />
               </a>
-              <a
+              <a 
                 href="https://www.instagram.com/weo.earth/"
-                aria-label="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-pink-400 transition duration-300"
+                className="text-white hover:text-eco-beige transition-colors"
               >
-                <FaInstagram />
+                <FaInstagram className="text-xl" />
               </a>
-              <a
+              <a 
                 href="https://www.youtube.com/@WorldEnvironmentOrganization"
-                aria-label="YouTube"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-red-400 transition duration-300"
+                className="text-white hover:text-eco-beige transition-colors"
               >
-                <FaYoutube />
+                <FaYoutube className="text-xl" />
               </a>
-              <a
+              <a 
                 href="https://wa.me/7075576601"
-                aria-label="WhatsApp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-lime-400 transition duration-300"
+                className="text-white hover:text-eco-beige transition-colors"
               >
-                <FaWhatsapp />
+                <FaWhatsapp className="text-xl" />
               </a>
             </div>
           </div>

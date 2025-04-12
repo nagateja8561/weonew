@@ -49,7 +49,7 @@ const About = () => {
         <div className="mb-16 text-center animate-on-scroll">
           <h2 className="text-eco-green mb-4">About Us</h2>
           <p className="text-lg max-w-3xl mx-auto text-eco-gray">
-            EcoGlobal is an international environmental organization dedicated to protecting the planet's most vital natural resources and creating a sustainable future for all.
+            World Environment Organization is an international environmental organization dedicated to protecting the planet's most vital natural resources and creating a sustainable future for all.
           </p>
         </div>
 

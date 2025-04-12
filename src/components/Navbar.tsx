@@ -32,7 +32,7 @@ const Navbar = () => {
           "text-2xl font-bold transition-colors", 
           isScrolled ? "text-eco-green" : "text-white"
         )}>
-          EcoGlobal
+          WEO
         </a>
         
         <div className="hidden md:flex space-x-8">

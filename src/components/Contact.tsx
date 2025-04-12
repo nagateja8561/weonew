@@ -1,6 +1,11 @@
-
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import {
+  FaFacebookF,
+  FaYoutube,
+  FaWhatsapp,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,18 +40,18 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <MapPin className="h-6 w-6 text-eco-green" />,
-      title: "Our Headquarters",
-      details: "123 Green Street, Earth City, Global 12345"
+      title: "Our Location",
+      details: "India"
     },
     {
       icon: <Phone className="h-6 w-6 text-eco-green" />,
       title: "Phone",
-      details: "+1 (555) 123-4567"
+      details: "+91 7075576601"
     },
     {
       icon: <Mail className="h-6 w-6 text-eco-green" />,
       title: "Email",
-      details: "info@ecoglobal.org"
+      details: "info@weoindia.in"
     }
   ];
 
@@ -78,18 +83,37 @@ const Contact = () => {
               <div className="mt-8">
                 <h4 className="font-bold mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
-                  {/* Social media icons placeholders */}
-                  <a href="#" className="bg-eco-green text-white p-2 rounded-full hover:bg-eco-green-dark transition-colors">
-                    F
+                  <a 
+                    href="https://www.facebook.com/profile.php?id=61560845355012"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-blue-400 transition duration-300"
+                  >
+                    <FaFacebookF className="text-xl" />
                   </a>
-                  <a href="#" className="bg-eco-green text-white p-2 rounded-full hover:bg-eco-green-dark transition-colors">
-                    T
+                  <a 
+                    href="https://www.instagram.com/weo.earth/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-pink-400 transition duration-300"
+                  >
+                    <FaInstagram className="text-xl" />
                   </a>
-                  <a href="#" className="bg-eco-green text-white p-2 rounded-full hover:bg-eco-green-dark transition-colors">
-                    I
+                  <a 
+                    href="https://www.youtube.com/@WorldEnvironmentOrganization"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-red-400 transition duration-300"
+                  >
+                    <FaYoutube className="text-xl" />
                   </a>
-                  <a href="#" className="bg-eco-green text-white p-2 rounded-full hover:bg-eco-green-dark transition-colors">
-                    L
+                  <a 
+                    href="https://wa.me/7075576601"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 hover:text-lime-400 transition duration-300"
+                  >
+                    <FaWhatsapp className="text-xl" />
                   </a>
                 </div>
               </div>

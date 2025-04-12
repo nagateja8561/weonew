@@ -1,6 +1,12 @@
-
 import React from 'react';
 import { Heart } from 'lucide-react';
+import {
+  FaFacebookF,
+  FaYoutube,
+  FaWhatsapp,
+  FaInstagram,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,12 +16,9 @@ const Footer = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h4 className="text-xl font-bold mb-4">EcoGlobal</h4>
+            <h4 className="text-xl font-bold mb-4">About</h4>
             <p className="mb-4 opacity-90">
-              Dedicated to protecting our planet and creating a sustainable future for all living beings.
-            </p>
-            <p className="opacity-90">
-              Tax ID: 12-3456789
+              The World Environment Organization is dedicated to protecting nature and conserving our planet's resources.
             </p>
           </div>
           
@@ -31,46 +34,69 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-xl font-bold mb-4">Resources</h4>
-            <ul className="space-y-2 opacity-90">
-              <li><a href="#" className="hover:text-eco-beige transition-colors">News & Blog</a></li>
-              <li><a href="#" className="hover:text-eco-beige transition-colors">Research & Reports</a></li>
-              <li><a href="#" className="hover:text-eco-beige transition-colors">Educational Materials</a></li>
-              <li><a href="#" className="hover:text-eco-beige transition-colors">Press Releases</a></li>
-              <li><a href="#" className="hover:text-eco-beige transition-colors">Career Opportunities</a></li>
-            </ul>
+            <h4 className="text-xl font-bold mb-4">Follow Us</h4>
+            <div className="flex space-x-5 text-2xl">
+              <a
+                href="https://www.facebook.com/profile.php?id=61560845355012"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400 transition duration-300"
+              >
+                <FaFacebookF />
+              </a>
+              <a
+                href="https://www.instagram.com/weo.earth/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-pink-400 transition duration-300"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.youtube.com/@WorldEnvironmentOrganization"
+                aria-label="YouTube"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-red-400 transition duration-300"
+              >
+                <FaYoutube />
+              </a>
+              <a
+                href="https://wa.me/7075576601"
+                aria-label="WhatsApp"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-lime-400 transition duration-300"
+              >
+                <FaWhatsapp />
+              </a>
+            </div>
           </div>
           
           <div>
-            <h4 className="text-xl font-bold mb-4">Newsletter</h4>
-            <p className="mb-4 opacity-90">
-              Subscribe to our newsletter to receive updates on our work and ways to get involved.
+            <h4 className="text-xl font-bold mb-4">Contact Information</h4>
+            <p className="text-sm opacity-90">
+              Email:{" "}
+              <a href="mailto:info@weoindia.in" className="text-white hover:underline">
+                info@weoindia.in
+              </a>
             </p>
-            <form className="flex">
-              <input 
-                type="email" 
-                placeholder="Your email" 
-                className="px-4 py-2 rounded-l-md w-full focus:outline-none text-foreground"
-              />
-              <button 
-                type="submit" 
-                className="bg-eco-blue px-4 py-2 rounded-r-md hover:bg-eco-blue-dark transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
+            <p className="text-sm opacity-90">
+              Phone:{" "}
+              <a href="tel:+917075576601" className="text-white hover:underline">
+                +91 7075576601
+              </a>
+            </p>
           </div>
         </div>
         
-        <div className="border-t border-white/20 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="opacity-90 mb-4 md:mb-0">
-            &copy; {currentYear} EcoGlobal. All rights reserved.
-          </p>
-          <div className="flex space-x-6 opacity-90">
-            <a href="#" className="hover:text-eco-beige transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-eco-beige transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-eco-beige transition-colors">Cookie Policy</a>
-          </div>
+        <div className="border-t border-emerald-600 mt-12 pt-4 text-center text-sm opacity-90">
+          &copy; {currentYear} WEO |{" "}
+          <Link to="/policy" className="text-white hover:underline">
+            Privacy Policy
+          </Link>
         </div>
         
         <div className="mt-8 text-center text-sm opacity-80">

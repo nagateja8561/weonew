@@ -71,20 +71,7 @@ const GetInvolved = () => {
               <p className="mb-6">
                 Your donation directly supports our conservation efforts around the world. We use funds efficiently to maximize impact and create lasting change.
               </p>
-              <div className="flex flex-wrap gap-4">
-                <button className="bg-white text-eco-blue font-medium px-5 py-2 rounded-md hover:bg-eco-beige transition-colors">
-                  $25
-                </button>
-                <button className="bg-white text-eco-blue font-medium px-5 py-2 rounded-md hover:bg-eco-beige transition-colors">
-                  $50
-                </button>
-                <button className="bg-white text-eco-blue font-medium px-5 py-2 rounded-md hover:bg-eco-beige transition-colors">
-                  $100
-                </button>
-                <button className="bg-white text-eco-blue font-medium px-5 py-2 rounded-md hover:bg-eco-beige transition-colors">
-                  Custom
-                </button>
-              </div>
+
               <button className="mt-6 bg-eco-green text-white font-medium px-6 py-3 rounded-md hover:bg-eco-green-dark transition-colors">
                 Donate Now
               </button>

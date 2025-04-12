@@ -41,7 +41,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6 text-eco-green" />,
       title: "Our Location",
-      details: "India"
+      details: "H No- 8-3-231/A/11/1,Sri Krishna Nagar Main Road, Jubilee Hills,India, Hyderabad-500033"
     },
     {
       icon: <Phone className="h-6 w-6 text-eco-green" />,

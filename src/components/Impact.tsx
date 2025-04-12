@@ -1,12 +1,11 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Impact = () => {
   const stats = [
-    { value: 50, label: "Countries", suffix: "+" },
-    { value: 100, label: "Million Hectares", suffix: "M" },
-    { value: 500, label: "Conservation Projects", suffix: "+" },
-    { value: 1000, label: "Communities Supported", suffix: "+" }
+    { value: 5, label: "Countries", suffix: "+" },
+    { value: 1, label: "Million Hectares", suffix: "M" },
+    { value: 50, label: "Conservation Projects", suffix: "+" },
+    { value: 100, label: "Communities Supported", suffix: "+" }
   ];
 
   const [counters, setCounters] = useState(stats.map(() => 0));
@@ -94,8 +93,12 @@ const Impact = () => {
               Read Our Stories
             </a>
           </div>
-          <div className="h-80 rounded-lg animate-on-scroll" style={{backgroundImage: "url('/placeholder.svg')", backgroundSize: "cover", backgroundPosition: "center"}}>
-            {/* Image placeholder */}
+          <div className="h-80 rounded-lg overflow-hidden animate-on-scroll shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+              alt="Environmental success story" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

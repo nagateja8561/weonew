@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { Heart, HandHelping, Calendar, Share2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const GetInvolved = () => {
   const ways = [
@@ -9,28 +9,32 @@ const GetInvolved = () => {
       title: "Donate",
       description: "Support our work financially to help us expand our impact around the world.",
       action: "Donate Now",
-      link: "#donate"
+      link: "/donate",
+      isExternalLink: false
     },
     {
       icon: <HandHelping className="h-12 w-12 text-eco-green" />,
       title: "Volunteer",
       description: "Join our network of volunteers and contribute your time and skills to our mission.",
       action: "Become a Volunteer",
-      link: "#volunteer"
+      link: "#volunteer",
+      isExternalLink: false
     },
     {
       icon: <Calendar className="h-12 w-12 text-eco-green" />,
       title: "Attend Events",
       description: "Participate in our events, workshops, and fundraisers in your community.",
       action: "See Events",
-      link: "#events"
+      link: "#events",
+      isExternalLink: false
     },
     {
       icon: <Share2 className="h-12 w-12 text-eco-green" />,
       title: "Spread the Word",
       description: "Share our message and raise awareness about environmental conservation.",
       action: "Share Now",
-      link: "#share"
+      link: "#share",
+      isExternalLink: false
     }
   ];
 
@@ -54,32 +58,23 @@ const GetInvolved = () => {
               <div className="mb-4 flex justify-center">{way.icon}</div>
               <h4 className="mb-3 text-eco-green">{way.title}</h4>
               <p className="mb-4 text-eco-gray">{way.description}</p>
-              <a 
-                href={way.link} 
-                className="inline-block bg-eco-green text-white font-medium px-4 py-2 rounded-md hover:bg-eco-green-dark transition-colors"
-              >
-                {way.action}
-              </a>
+              {way.isExternalLink ? (
+                <a 
+                  href={way.link} 
+                  className="inline-block bg-eco-green text-white font-medium px-4 py-2 rounded-md hover:bg-eco-green-dark transition-colors"
+                >
+                  {way.action}
+                </a>
+              ) : (
+                <Link 
+                  to={way.link} 
+                  className="inline-block bg-eco-green text-white font-medium px-4 py-2 rounded-md hover:bg-eco-green-dark transition-colors"
+                >
+                  {way.action}
+                </Link>
+              )}
             </div>
           ))}
-        </div>
-
-        <div id="donate" className="mt-20 p-8 bg-eco-blue text-white rounded-lg animate-on-scroll">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
-            <div>
-              <h3 className="mb-4">Make a Donation</h3>
-              <p className="mb-6">
-                Your donation directly supports our conservation efforts around the world. We use funds efficiently to maximize impact and create lasting change.
-              </p>
-
-              <button className="mt-6 bg-eco-green text-white font-medium px-6 py-3 rounded-md hover:bg-eco-green-dark transition-colors">
-                Donate Now
-              </button>
-            </div>
-            <div className="h-72 rounded-lg" style={{backgroundImage: "url('/placeholder.svg')", backgroundSize: "cover", backgroundPosition: "center"}}>
-              {/* Image placeholder */}
-            </div>
-          </div>
         </div>
       </div>
     </section>

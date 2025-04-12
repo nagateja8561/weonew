@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Globe, Users, ShieldCheck } from 'lucide-react';
 
@@ -29,7 +28,7 @@ const About = () => {
     {
       icon: <Globe className="h-12 w-12 text-eco-green" />,
       title: "Global Impact",
-      description: "We work in over 50 countries to implement sustainable solutions that benefit both people and the planet."
+      description: "We work in over 5 countries to implement sustainable solutions that benefit both people and the planet."
     },
     {
       icon: <Users className="h-12 w-12 text-eco-green" />,
@@ -49,22 +48,28 @@ const About = () => {
         <div className="mb-16 text-center animate-on-scroll">
           <h2 className="text-eco-green mb-4">About Us</h2>
           <p className="text-lg max-w-3xl mx-auto text-eco-gray">
-            World Environment Organization is an international environmental organization dedicated to protecting the planet's most vital natural resources and creating a sustainable future for all.
+            World Environment Organization is an environmental organization dedicated to protecting the planet's most vital natural resources and creating a sustainable future for all.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 items-center mb-16">
           <div className="animate-on-scroll">
-            <h3 className="mb-4">Our Mission</h3>
-            <p className="mb-6">
-              To conserve the lands and waters on which all life depends through innovative solutions based on science, collaboration, and a deep commitment to protecting nature for future generations.
-            </p>
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-eco-green mb-4">Our Mission</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                We strive to empower communities and individuals by promoting environmental sustainability and innovation. Our mission is to build a world where progress is inclusive, impactful, and aligned with our planet's needs.
+              </p>
+            </div>
             <p>
-              Since our founding in 1995, we've protected more than 100 million hectares of critical habitats, helped establish hundreds of marine conservation areas, and worked with communities to develop sustainable practices.
+              Since our founding in 1995, we've protected more than 1 million hectares of critical habitats, helped establish hundreds of marine conservation areas, and worked with communities to develop sustainable practices.
             </p>
           </div>
-          <div className="h-80 bg-eco-beige rounded-lg animate-on-scroll" style={{backgroundImage: "url('/placeholder.svg')", backgroundSize: "cover", backgroundPosition: "center"}}>
-            {/* Image placeholder */}
+          <div className="h-80 rounded-lg overflow-hidden animate-on-scroll shadow-lg">
+            <img 
+              src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+              alt="Environmental conservation" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 

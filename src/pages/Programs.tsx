@@ -16,7 +16,7 @@ const Programs = () => {
       shortDescription: "Protecting and restoring forests to combat deforestation and preserve biodiversity.",
       longDescription: "Our Forest Conservation program focuses on protecting and restoring forests worldwide. We work with local communities, governments, and organizations to combat deforestation, preserve biodiversity, and promote sustainable forest management practices. Through reforestation initiatives, protected area establishment, and community-based conservation, we aim to ensure the long-term health of forest ecosystems.",
       color: "bg-eco-green-light",
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+      image: "https://images.unsplash.com/photo-1734533076224-291df51049d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
       stats: [
         { label: "Acres Protected", value: "2.5M+" },
         { label: "Trees Planted", value: "1.2M+" },
@@ -35,7 +35,7 @@ const Programs = () => {
       shortDescription: "Ensuring access to clean water while protecting marine and freshwater ecosystems.",
       longDescription: "Our Clean Water Initiatives program works to ensure access to clean water while protecting marine and freshwater ecosystems. We implement water conservation projects, develop sustainable water management systems, and protect watersheds from pollution. By working with communities and governments, we create solutions that balance human needs with environmental protection.",
       color: "bg-eco-blue-light",
-      image: "https://images.unsplash.com/photo-1545193544-312983719627?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1571437436752-b39c74e5c501?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       stats: [
         { label: "Water Projects", value: "75+" },
         { label: "People Benefited", value: "500K+" },
@@ -54,7 +54,7 @@ const Programs = () => {
       shortDescription: "Developing solutions to reduce carbon emissions and build climate resilience.",
       longDescription: "Our Climate Action program focuses on developing solutions to reduce carbon emissions and build climate resilience. We work with communities, businesses, and governments to implement renewable energy projects, promote energy efficiency, and develop adaptation strategies for climate impacts. Through education, advocacy, and direct action, we aim to create a more sustainable and resilient future.",
       color: "bg-eco-brown-light",
-      image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1682841698468-f10ce1b4840d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       stats: [
         { label: "Carbon Reduced", value: "50K+ tons" },
         { label: "Renewable Projects", value: "40+" },
@@ -92,7 +92,7 @@ const Programs = () => {
       shortDescription: "Protecting marine ecosystems and promoting sustainable fisheries management.",
       longDescription: "Our Ocean Conservation program works to protect marine ecosystems and promote sustainable fisheries management. We implement marine protected areas, reduce plastic pollution, and support sustainable fishing practices. Through research, education, and direct action, we aim to ensure the health and sustainability of ocean ecosystems for future generations.",
       color: "bg-eco-blue-light",
-      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80",
+      image: "https://images.unsplash.com/photo-1666315384370-8958be0d3bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80",
       stats: [
         { label: "Marine Areas Protected", value: "1M+ acres" },
         { label: "Plastic Removed", value: "100+ tons" },
@@ -111,7 +111,7 @@ const Programs = () => {
       shortDescription: "Creating greener cities through urban planning and nature-based solutions.",
       longDescription: "Our Urban Sustainability program focuses on creating greener cities through urban planning and nature-based solutions. We work with municipalities to implement green infrastructure, improve public transportation, and create urban green spaces. Through partnerships with local governments, businesses, and communities, we help create cities that are more sustainable, resilient, and livable.",
       color: "bg-eco-brown-light",
-      image: "https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1593947593622-43676fb47751?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       stats: [
         { label: "Cities Supported", value: "25+" },
         { label: "Green Spaces Created", value: "100+" },

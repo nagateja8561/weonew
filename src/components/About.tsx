@@ -66,9 +66,9 @@ const About = () => {
           </div>
           <div className="h-80 rounded-lg overflow-hidden animate-on-scroll shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+              src="https://images.unsplash.com/photo-1569163139599-0f4517e36f51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
               alt="Environmental conservation" 
-              className="w-full h-full object-cover"
+              className="w-full h-100 object-cover"
             />
           </div>
         </div>

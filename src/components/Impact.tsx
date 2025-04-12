@@ -92,7 +92,7 @@ const Impact = () => {
           </div>
           <div className="h-80 rounded-lg overflow-hidden animate-on-scroll shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+              src="https://images.unsplash.com/photo-1566201902016-fb52a7730f3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
               alt="Environmental success story" 
               className="w-full h-full object-cover"
             />

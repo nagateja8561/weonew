@@ -22,7 +22,7 @@ const Events = () => {
       time: "09:00 AM - 12:00 PM",
       location: "Central Park, Mumbai",
       description: "Join us for a community tree planting drive. We'll be planting 500 saplings to increase green cover in the city. All tools and saplings will be provided.",
-      image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1708593343700-a101f8fe4d11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       attendees: 120,
       category: "Conservation",
       status: "upcoming"
@@ -34,7 +34,7 @@ const Events = () => {
       time: "08:00 AM - 11:00 AM",
       location: "Juhu Beach, Mumbai",
       description: "Help us clean up Juhu Beach and protect marine life. We'll be collecting plastic waste and other debris. Gloves and bags will be provided.",
-      image: "https://images.pexels.com/photos/3601094/pexels-photo-3601094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image: "https://images.unsplash.com/photo-1565803974275-dccd2f933cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       attendees: 85,
       category: "Cleanup",
       status: "upcoming"
@@ -46,7 +46,7 @@ const Events = () => {
       time: "02:00 PM - 05:00 PM",
       location: "Community Center, Mumbai",
       description: "Learn about sustainable living practices and how to reduce your carbon footprint. The workshop includes hands-on activities and take-home materials.",
-      image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1660795308754-4c6422baf2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       attendees: 45,
       category: "Education",
       status: "upcoming"
@@ -58,7 +58,7 @@ const Events = () => {
       time: "10:00 AM - 06:00 PM",
       location: "Art Gallery, Mumbai",
       description: "View stunning wildlife photography from local and international photographers. Proceeds from the exhibition will support our wildlife conservation projects.",
-      image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      image: "https://images.unsplash.com/photo-1728467100846-a658a53e0939?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       attendees: 200,
       category: "Awareness",
       status: "upcoming"
@@ -107,7 +107,7 @@ const Events = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80')",
+            backgroundImage: "url('https://images.unsplash.com/photo-1582685177366-aacff47c7a01?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

@@ -10,9 +10,16 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative h-screen w-full bg-hero-pattern bg-cover bg-center flex items-center justify-center text-white">
+    <div className="relative h-screen w-full flex items-center justify-center text-white">
       <div className="absolute inset-0 bg-gradient-to-r from-[#00aaff] to-[#00ff77] z-0"></div>
       <div className="container mx-auto px-4 z-10 text-center">
+        <div className="mb-8 animate-fade-in">
+          <img 
+            src="/logo.png" 
+            alt="WEO Logo" 
+            className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto mx-auto rounded-2xl"
+          />
+        </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
           Protecting Our Planet <br className="hidden md:block" /> For Future Generations
         </h1>
